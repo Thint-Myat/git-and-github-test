@@ -1,3 +1,7 @@
+Git and Github
+
+--------------
+
 git config --global user.name "Thint Myat"      <<< create username 
 git config user.name                            <<< check username     
 
@@ -36,6 +40,10 @@ git checkout name           <<< move one branch to another branch
 git checkout -b name        <<< create and move to branch <<< (short version)
 
 git branch -D name          <<< delete branch
+
+git remote add origin repolink/linkname <<< 
+
+git push origin main        <<< push local project repo to github repo main/master branch
 
 
 
