@@ -43,9 +43,13 @@ git branch -D name          <<< delete branch on git
 
 git remote add origin repolink/linkname <<< 
 
+git remote -v               <<< check github remote
+
 git push origin main        <<< push local project repo to github repo main/master branch
 
 git push origin --delete branchname     <<< delete branch on github
+
+git clone repolink/linkname             <<< download file on github
 
 
 
