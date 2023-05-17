@@ -39,11 +39,13 @@ git checkout name           <<< move one branch to another branch
 
 git checkout -b name        <<< create and move to branch <<< (short version)
 
-git branch -D name          <<< delete branch
+git branch -D name          <<< delete branch on git 
 
 git remote add origin repolink/linkname <<< 
 
 git push origin main        <<< push local project repo to github repo main/master branch
+
+git push origin --delete branchname     <<< delete branch on github
 
 
 
