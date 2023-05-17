@@ -1,0 +1,41 @@
+git config --global user.name "Thint Myat"      <<< create username 
+git config user.name                            <<< check username     
+
+git config --global user.email "thintmyat0701@gmail.com"        <<< create email 
+git config user.email                                           <<< check email
+
+git status (check)          <<< red colour - modified stage (stage-1)
+                                green colour - staging stage (stage-2)
+
+git add filename (add)      <<< single add - from modified stage-1 to staging stage-2 
+
+git rm --cached filename    <<< remove from staging stage-2 to modified stage-1
+
+git add .                   <<< add all file 
+
+git commit -m "filename"    <<< create commit
+
+git log                     <<< check commit <<< q = when move background (long version)
+
+git log --oneline           <<< check commit (short version)
+
+git checkout commit id      <<< only watch
+
+git checkout main           <<< move back to the last file/situation
+
+git revert commit id        <<< delete with new commit 
+
+git reset commit id --hard  <<< permanently
+
+git branch -a               <<< watch/check how many branches?
+
+git branch name             <<< create branch
+
+git checkout name           <<< move one branch to another branch
+
+git checkout -b name        <<< create and move to branch <<< (short version)
+
+git branch -D name          <<< delete branch
+
+
+
