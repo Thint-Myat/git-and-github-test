@@ -51,5 +51,12 @@ git push origin --delete branchname     <<< delete branch on github
 
 git clone repolink/linkname             <<< download file on github
 
+# git stash 
+
+git stash                   <<< save and keep working (only modified file)
+
+git stash --include--untracked          <<< save and keep working (both modified file and untracked file)
+
+git stash pop               <<< take and keep working
 
 
