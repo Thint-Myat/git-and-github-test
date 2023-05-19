@@ -59,4 +59,6 @@ git stash --include--untracked          <<< save and keep working (both modified
 
 git stash pop               <<< take and keep working
 
+# git-gui
+
 
