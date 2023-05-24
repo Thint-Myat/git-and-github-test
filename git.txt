@@ -47,6 +47,8 @@ git remote -v               <<< check github remote
 
 git push origin main        <<< push local project repo to github repo main/master branch
 
+git push origin main --force    <<< push local project repo to github repo main/master branch with force
+
 git push origin --delete branchname     <<< delete branch on github
 
 git clone repolink/linkname             <<< download file on github
